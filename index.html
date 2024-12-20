@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Raj Srivastava</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Raj Srivastava</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Hello, I'm Raj Srivastava</h2>
+        <p>Frontend Developer | Problem Solver | Software Enthusiast</p>
+        <button onclick="scrollToSection('projects')">Explore My Work</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    I'm a passionate frontend developer with a strong foundation in Java, HTML, CSS, and React. 
+                    I enjoy creating intuitive and user-friendly web applications. My approach combines technical 
+                    expertise with a deep commitment to delivering impactful solutions.
+                </p>
+                <p>
+                    With a background in software development and a knack for problem-solving, I aim to make 
+                    technology accessible and efficient. When I'm not coding, I enjoy reading and exploring 
+                    emerging technologies.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="cartoon-character.png" alt="Cartoon Character">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Information Integrity Monitoring System</h3>
+            <p>
+                A fake news detection system built with Python and Django that classifies news articles 
+                as real or fake with 90% accuracy. Features include user authentication and a detailed 
+                article analysis history.
+            </p>
+            <ul>
+                <li><strong>Technologies:</strong> Python, Django, SQLite, HTML, CSS, jQuery</li>
+                <li><strong>Role:</strong> Frontend Developer, Model Trainer</li>
+            </ul>
+            <a href="https://github.com/Raj-0908/Fake-News-Detection" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Live Language Translator</h3>
+            <p>
+                A real-time language translator web application that provides instant translations for 
+                multiple languages using APIs and JavaScript.
+            </p>
+            <ul>
+                <li><strong>Technologies:</strong> HTML, CSS, JavaScript, Translation API</li>
+                <li><strong>Role:</strong> Full-stack Developer</li>
+            </ul>
+            <a href="https://raj-0908.github.io/CodeClauseInternship__Live-language-Translator/" target="_blank" class="project-link">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Raj Srivastava</p>
+    </footer>
+
+    
+</body>
+</html>
