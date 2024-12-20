@@ -68,6 +68,22 @@ header a:hover {
     background-color: #c70039;
 }
 
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 2rem;
+    margin: 0 15px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff5733;
+}
+
 /* About Section */
 #about {
     background-color: #f3f3f3;
